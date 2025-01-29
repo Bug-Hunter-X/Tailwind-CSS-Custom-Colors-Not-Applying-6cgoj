@@ -1,0 +1,3 @@
+# Tailwind CSS Custom Colors Not Applying
+
+This repository demonstrates a common issue where custom colors defined in `tailwind.config.js` are not correctly applied in the HTML file. The expected blue color does not render, even with the correct configuration.  The solution involves verifying the `content` property in `tailwind.config.js` to ensure that Tailwind is properly processing the CSS files and correctly referencing your HTML and JSX/TSX.
